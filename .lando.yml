@@ -1,13 +1,13 @@
 # See: https://lando.dev/
 
-name: slidesstarter
+name: deployer
 
 # See: https://docs.lando.dev/core/v3/proxy.html
 proxy:
   appserver:
-    - web.slidesstarter.lndo.site
+    - web.deployer.lndo.site
   node:
-    - node.slidesstarter.lndo.site
+    - node.deployer.lndo.site
 
 # See: https://docs.lando.dev/core/v3/services.html
 services:
